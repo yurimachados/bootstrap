@@ -1,9 +1,35 @@
+/* Padrões */
+
+.primary-color {
+    color: #252525;
+}
+
+.bg-primary-color {
+    background-color: #aaaaaa;
+}
+
+.secondary-color {
+    color: #f7f7f7;
+}
+
+.bg-secondary-color {
+    background-color: #323555;
+}
+
+/* Custom */
+* {
+    font-family: libre Franklin ;
+}
+
+body {
+    background-color: #7fc0fd5e;
+}
+
 header{
     height: 60px;
     border-bottom: 1px solid rgb(17, 86, 214);
+    background-color: rgb(175, 221, 236);
 }
-
-
 
 header p {
     text-align: center;
@@ -12,7 +38,7 @@ a {
     color: rgba(0, 0, 255, 0.966);
 }
 section {
-    padding-top: 4rem;
+    padding-top: 6rem;
     padding-bottom: 4rem;
 }
 input, textarea{
